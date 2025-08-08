@@ -1,0 +1,23 @@
+# Q1
+print([n**2 for n in list(map(input(), int))])
+
+# Q2
+l=["adam", "bob", "car", "madam","cipher", "racecar"]
+print([w for w in l if w==w[::-1]])
+
+# Q3
+print(sum(n for n in [1,2,3,4,5,6] if n%2==0))
+
+# Q4
+with open("data.csv", "r") as file:
+    header, data=file.readlines()
+    header=header.split(",")
+    data=data.split(",")
+    dict={}
+    for key, value im zip(header,data):
+        dict[key]=value
+    print(dict)
+
+# Q5
+l=[-5 -2 3 7 -1 ]
+print(sorted(l, key=lambda x:abs(x)))
