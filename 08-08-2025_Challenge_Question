@@ -1,0 +1,40 @@
+Q1. Read a list of integers and print a list of their squares using list comprehension.
+
+Q2. From a list of words, print only those that are palindromes using a one-line expression.
+
+Q3. Given a list of numbers, print the sum of only the even numbers using sum() with a generator expression.
+
+Q4. Read a CSV string from input and convert it into a dictionary using dictionary comprehension (keys from first row, values from second).
+
+Q5. Read a list of integers and print them sorted by their absolute value using sorted() with a key function.
+
+1. **List comprehension — squares**  
+Input:  
+1 2 3 4 5  
+Expected output:  
+[1, 4, 9, 16, 25]  
+
+2. **One-line palindrome filter**  
+Input:  
+madam level apple noon racecar python  
+Expected output:  
+['madam', 'level', 'noon', 'racecar']  
+
+3. **Sum of evens with generator expression**  
+Input:  
+10 3 4 7 8 11  
+Expected output:  
+22  
+
+4. **Dictionary comprehension from CSV**  
+Input:  
+name,age,city  
+Alice,30,London  
+Expected output:  
+{'name': 'Alice', 'age': '30', 'city': 'London'}  
+
+5. **Sort by absolute value**  
+Input:  
+-5 -2 3 7 -1  
+Expected output:  
+[-1, -2, 3, -5, 7]
